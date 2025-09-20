@@ -44,7 +44,7 @@ Features like fuel type, condition, and title status all reliably contribute to 
 
 
 ## Conclusion and Summary:
-**Here, we'll summarize the best features to guarantee high pricing for used cars in our inventory.
+*Here, we'll summarize the best features to guarantee high pricing for used cars in our inventory.*
 
 * Condition: **"Fair" and "excellent" cars are priced highest**, followed by "like new", "good", "new" and "salvage."
 * Drive: **4WD are by far the highest priced** cars, followed by moderately priced FWD, and much cheaper RWD.
