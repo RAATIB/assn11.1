@@ -7,6 +7,16 @@ Raatib Tanvir | Sep 17 2025 | Professional Certificate in Machine Learning and A
 
 **Assignment notebook:** https://github.com/RAATIB/assn11.1/blob/5ebea2a1da91ce05c1b512e1ca34f9ae046e2ca7/assn11.1.ipynb
 
+
+## Introduction and Problem Statement:
+In this project, we utilized data processing tools and machine learning techniques to discern what factors contribute to a used car's price.
+
+Our analysis provided ***promising trends that could cue sales personnel into the mind of a used car buyer***, demonstrating how factors like condition, year of manufacture, and title status contribute to a car's price.
+
+
+Our conclusions can lead us to **actionable steps to allow sales personnel to assess their inventory for the most successful used car sales!**
+
+
 ## Single Non-Numeric Values
 
 Features like fuel type, condition, and title status all reliably contribute to the value of our car. Thanks to our analysis, we can pinpoint to what degree features affect price and advise sales personnel on how valuable certain features are.
@@ -26,56 +36,20 @@ Features like fuel type, condition, and title status all reliably contribute to 
 * In terms of title status, sales personnel can rest assured that intuitively, the better condition a title status of a car, the higher the price the car will be. In essence, **clean title status indicates highest pricing, then lien**, followed by rebuilt, parts only, missing, and salvage respectively.
 
 
+## Numeric Values
+
+### Cylinders, Odometer, Year
+
+* Our analysis provides promising information about the numeric features of car's in the inventory of our sales personnel. Firstly, ** increasing cylinder count has a very strong effect on price**, where each increase in cylinder count increases the price of a car greatly. **Sales personnel should prioritize higher cylinder count cars** to ensure greater pricing. **Cars newer by the year are more valuable**, where each increase in year leads to a moderate increase in price. **Sales personnel should stock up on newer car models** to maximize their pricing. Finally, odometer count gradually decreases price as it increases. Unsurprisingly **sales personnel should be aware that greater mileage lowers the price of a car**, considering lower mileage cars to maximize value.
 
 
+## Conclusion and Summary:
+**Here, we'll summarize the best features to guarantee high pricing for used cars in our inventory.
 
-
-
-
-## Problem Statement:
-In this project, we utilized data processing tools and visualizations to discern whether surveyed customers accepted certain coupons or not.
-
-Our analysis provided ***promising trends that could cue shareholders into the mind of a potential coupon user***, demonstrating how factors like age, habits, and income affect the decision of customers on the receiving end of a coupon.
-
-
-Our conclusions can lead us to **actionable steps to secure further business engagements with the right customers!**
-
-
-<br />
-
-## Guided Analysis on Bar Coupon Results:
-- Individuals who already **go to the bar at least once** are ***much more likely*** to accept bar coupons
-- **Individuals above 25, individuals above 30, and individuals with companions who aren't kids** are all subsets of respondents who are ***significantly more likely*** to accept bar coupons.
-    - These all fit demographics that are intuitively more likely to visit a bar, given they are of age to drink alcohol.
-- Individuals who **do not visit the bar frequently** (<1 a month) are ***much less likely*** to accept bar coupons, reflecting a consistent lack of desire to attend the bar.
-- Individuals who **have kids** with them in their car are ***much less likely*** to accept bar coupons. Customers with kids accompanying are likely unable to attend the bar.
-
-<br />
-
-# Individual Analysis
-## Problem Statement:
-Can we find patterns in *subsets of data related to the coffee house coupons*?
-In particular, can we find trends related to income, age, and frequency of coffee house visits?
-
-## Individual Analysis - Results:
-- **Income**    affected rate of acceptance:
-    - A majority of lower income bracket respondents accepted coffee house coupons
-    - A minority of upper income bracket respondents accepted coffee house coupons
-    - Overall, there was a small increase (about 11%) in likelihood for acceptance if participants were in lower income brackets, reflecting the relative utility of a coupon to lower income customers.
- 
-      
-- **Age**    was another factor in rate of acceptance:
-    - A **majority** of *younger* participants (younger than 30 years old) accepted coffee house coupons
-    - A **minority** of *older* participants (30 or older) accepted coffee house coupons
-    - Overall, younger participants were slightly more likely (about 14%) to accept coupons than older participants.
-    - Factors like interest in coffee, utility of coffee based on age, or free time based on age could have led to these results.
- 
-      
-- **Frequency of attending coffee houses**    in a month had a *massive affect* on rate of acceptance!:
-    - Individuals who attended coffee houses frequent (4 or more times a month) were vastly more likely (a 50% difference!) than infrequent (less than 4 a month) attenders to accept the coupon.
-    - We can conclude that individuals who already attend coffee houses frequently are very likely to accept coffee house coupons. This invaluable information allows owners and managers to curate coupons towards frequent visitors to ensure further business interactions.
-
-## Recommendations:
-Further recommendations are included in the notebook. They include:
-- Finding statistical data on the "disposable income" of given income bracket participants in order to hone in on possible trends in coupon acceptance based on income.
-- Survey of factors like "free time" or relative interest or utility of coffee of participants, perhaps in relation to age, as it may allow for further analysis of coupon acceptance rates to make decisions around.
+* Condition: **"Fair" and "excellent" cars are priced highest**, followed by "like new", "good", "new" and "salvage."
+* Drive: **4WD are by far the highest priced** cars, followed by moderately priced FWD, and much cheaper RWD.
+* Fuel: **Highest priced cars are "diesel" and "gas" based**, followed by "other", than "electric" and "hybrid."
+* Title status: Intuitively, price is highest as follows: **"clean", "lien"**, "rebuilt", "parts only, "missing," and "salvage."
+* Cylinders: Price increases very greatly per each cylinder a car has. **The more cylinders, the higher the price!**
+* Odometer: Price decreases gradually as odometer value increases. **The lower the odometer value, the more valuable the car!**
+* Year: Newer models sell for a higher value. **The newer the car model, the more valuable the car!**
