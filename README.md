@@ -40,7 +40,7 @@ Features like fuel type, condition, and title status all reliably contribute to 
 
 ### Cylinders, Odometer, Year
 
-* Our analysis provides promising information about the numeric features of car's in the inventory of our sales personnel. Firstly, ** increasing cylinder count has a very strong effect on price**, where each increase in cylinder count increases the price of a car greatly. **Sales personnel should prioritize higher cylinder count cars** to ensure greater pricing. **Cars newer by the year are more valuable**, where each increase in year leads to a moderate increase in price. **Sales personnel should stock up on newer car models** to maximize their pricing. Finally, odometer count gradually decreases price as it increases. Unsurprisingly **sales personnel should be aware that greater mileage lowers the price of a car**, considering lower mileage cars to maximize value.
+* Our analysis provides promising information about the numeric features of car's in the inventory of our sales personnel. Firstly, **increasing cylinder count has a very strong effect on price**, where each increase in cylinder count increases the price of a car greatly. **Sales personnel should prioritize higher cylinder count cars** to ensure greater pricing. **Cars newer by the year are more valuable**, where each increase in year leads to a moderate increase in price. **Sales personnel should stock up on newer car models** to maximize their pricing. Finally, odometer count gradually decreases price as it increases. Unsurprisingly **sales personnel should be aware that greater mileage lowers the price of a car**, considering lower mileage cars to maximize value.
 
 
 ## Conclusion and Summary:
